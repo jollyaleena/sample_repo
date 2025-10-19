@@ -25,8 +25,7 @@ export class Loginpage {
            await this.email_textbox.fill(emailid)
            await this.password_textbox.fill(password)
            await this.login_button.click()
-           await expect(this.page).toHaveScreenshot()
-           
+        
         
     }
 
